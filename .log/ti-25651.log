@@ -1,0 +1,34 @@
+[19:35:44.385] Global cache location '/home/joerter/.cache/typescript/4.2', safe file path '/home/joerter/github/joerter/custom-forms-poc/node_modules/typescript/lib/typingSafeList.json', types map path /home/joerter/github/joerter/custom-forms-poc/node_modules/typescript/lib/typesMap.json
+[19:35:44.387] Processing cache location '/home/joerter/.cache/typescript/4.2'
+[19:35:44.387] Trying to find '/home/joerter/.cache/typescript/4.2/package.json'...
+[19:35:44.388] Finished processing cache location '/home/joerter/.cache/typescript/4.2'
+[19:35:44.388] Process id: 25658
+[19:35:44.388] NPM location: /home/joerter/.nvm/versions/node/v12.6.0/bin/npm (explicit '--npmLocation' not  provided)
+[19:35:44.388] validateDefaultNpmLocation: false
+[19:35:44.388] Npm config file: /home/joerter/.cache/typescript/4.2/package.json
+[19:35:44.388] Npm config file: '/home/joerter/.cache/typescript/4.2/package.json' is missing, creating new one...
+[19:35:44.389] Updating types-registry npm package...
+[19:35:44.389] Exec: /home/joerter/.nvm/versions/node/v12.6.0/bin/npm install --ignore-scripts types-registry@latest
+[19:35:45.976]     Succeeded. stdout:
+    + types-registry@0.1.532
+    added 1 package from 1 contributor and audited 1 package in 0.996s
+found 0 vulnerabilities
+
+
+[19:35:45.976] Updated types-registry npm package
+[19:39:39.960] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":[],"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/home/joerter/github/joerter/custom-forms-poc/src","kind":"discover"}
+[19:39:39.989] Loaded safelist from types map file '/home/joerter/github/joerter/custom-forms-poc/node_modules/typescript/lib/typesMap.json'
+[19:39:39.989] Explicitly included types: []
+[19:39:39.989] Inferred typings from unresolved imports: []
+[19:39:39.990] Result: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/joerter/github/joerter/custom-forms-poc/src/bower_components","/home/joerter/github/joerter/custom-forms-poc/src/node_modules"]}
+[19:39:39.990] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/joerter/github/joerter/custom-forms-poc/src/bower_components","/home/joerter/github/joerter/custom-forms-poc/src/node_modules"]}
+[19:39:39.990] DirectoryWatcher:: Added:: WatchInfo: /home/joerter/github/joerter/custom-forms-poc/src/bower_components
+[19:39:39.990] DirectoryWatcher:: Added:: WatchInfo: /home/joerter/github/joerter/custom-forms-poc/src/bower_components 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[19:39:39.992] Elapsed:: 1.4942330000922084ms DirectoryWatcher:: Added:: WatchInfo: /home/joerter/github/joerter/custom-forms-poc/src/bower_components 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[19:39:39.992] DirectoryWatcher:: Added:: WatchInfo: /home/joerter/github/joerter/custom-forms-poc/src/node_modules
+[19:39:39.992] DirectoryWatcher:: Added:: WatchInfo: /home/joerter/github/joerter/custom-forms-poc/src/node_modules 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[19:39:39.992] Elapsed:: 0.17988300044089556ms DirectoryWatcher:: Added:: WatchInfo: /home/joerter/github/joerter/custom-forms-poc/src/node_modules 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[19:39:39.992] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true},"typings":[],"unresolvedImports":[],"kind":"action::set"}
+[19:39:39.993] Response has been sent.
+[19:39:39.993] No new typings were requested as a result of typings discovery

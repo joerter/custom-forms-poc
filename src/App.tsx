@@ -1,24 +1,24 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { useState } from 'react';
 import './App.css';
+import { Form } from './models/form-models';
+import CreateForm from './CreateForm';
+
+const initialForm: Form = {
+  groups: [],
+};
 
 function App() {
+  const [form, setForm] = useState(initialForm);
+
+  function handleFormChange(form: Form) {
+    setForm(form);
+    console.log(form);
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <CreateForm form={form} onFormChange={handleFormChange} />
+      <pre>{JSON.stringify(form)}</pre>
     </div>
   );
 }
