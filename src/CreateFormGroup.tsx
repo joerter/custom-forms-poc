@@ -6,9 +6,11 @@ import CreateFormControl from './CreateFormControl';
 function CreateFormGroup({
   group,
   onGroupChange,
+  formControls,
 }: {
   group: FormGroup;
   onGroupChange: (fg: FormGroup) => void;
+  formControls: FormControl[];
 }) {
   function addFormControl() {
     onGroupChange({
@@ -28,13 +30,14 @@ function CreateFormGroup({
     });
   }
 
-  const formControls = group.controls.map((fc, i) => {
+  const createFormControls = group.controls.map((fc, i) => {
     const handleControlChangeAtIndex = partial(handleControlChange, i);
 
     return (
       <CreateFormControl
         control={fc}
         onControlChange={handleControlChangeAtIndex}
+        formControls={formControls}
         key={i}
       />
     );
@@ -43,7 +46,7 @@ function CreateFormGroup({
   return (
     <fieldset>
       <legend>Form Group</legend>
-      {formControls}
+      {createFormControls}
       <button onClick={addFormControl}>Add Form Control</button>
     </fieldset>
   );

@@ -1,4 +1,9 @@
-import { Form, FormGroup, createFormGroup } from './models/form-models';
+import {
+  Form,
+  FormGroup,
+  createFormGroup,
+  FormControl,
+} from './models/form-models';
 import React from 'react';
 import CreateFormGroup from './CreateFormGroup';
 import { partial } from './util';
@@ -6,9 +11,11 @@ import { partial } from './util';
 function CreateForm({
   form,
   onFormChange,
+  formControls,
 }: {
   form: Form;
   onFormChange: (form: Form) => void;
+  formControls: FormControl[];
 }) {
   function addFormGroup() {
     onFormChange({
@@ -35,6 +42,7 @@ function CreateForm({
       <CreateFormGroup
         group={fg}
         onGroupChange={handleGroupChangeAtIndex}
+        formControls={formControls}
         key={i}
       />
     );

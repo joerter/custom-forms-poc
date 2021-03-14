@@ -4,10 +4,16 @@ import { FormControl, FormControlType } from './models/form-models';
 function CreateFormControl({
   control,
   onControlChange,
+  formControls,
 }: {
   control: FormControl;
   onControlChange: (c: FormControl) => void;
+  formControls: FormControl[];
 }) {
+  const formControlOptions = formControls
+    .filter((f) => f.id !== control.id)
+    .map((f) => <option value={f.id}>{f.name}</option>);
+
   return (
     <fieldset>
       <legend>{control.name}</legend>
@@ -57,8 +63,41 @@ function CreateFormControl({
           });
         }}
       />
+
+      <p>Conditional Field</p>
+      <label htmlFor="triggering-control">Triggering Control</label>
+      <select
+        name="triggering-control"
+        id="triggering-control"
+        value={control.conditional?.formControlId}
+        onChange={(e) => {
+          onControlChange({
+            ...control,
+            conditional: {
+              value: '',
+              formControlId: e.target.value,
+            },
+          });
+        }}
+      >
+        <option>None</option>
+        {formControlOptions}
+      </select>
+      <label htmlFor="triggering-value">Triggering Value</label>
+      <input
+        type="text"
+        value={control.conditional?.value}
+        onChange={(e) => {
+          onControlChange({
+            ...control,
+            conditional: {
+              value: e.target.value,
+              formControlId: control.conditional?.formControlId,
+            },
+          });
+        }}
+      />
     </fieldset>
   );
 }
-
 export default CreateFormControl;

@@ -1,3 +1,5 @@
+import { randomId } from '../util';
+
 export interface GridLayout {
   columns: number;
   rows: number;
@@ -14,6 +16,7 @@ export interface FormGroup extends GridLayout {
 }
 
 export interface FormControl {
+  id: string;
   name: string;
   label: string;
   type: FormControlType;
@@ -37,7 +40,7 @@ export interface GridPosition {
 }
 
 export interface Conditional {
-  formControlName: string;
+  formControlId: string;
   value: string;
 }
 
@@ -76,6 +79,7 @@ export function createFormGroup(): FormGroup {
 
 export function createTextBox(): TextBox {
   return {
+    id: randomId(),
     label: 'My Text Box',
     name: 'my-text-box',
     type: 'text',
