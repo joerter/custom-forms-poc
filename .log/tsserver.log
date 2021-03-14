@@ -1,0 +1,406 @@
+Info 0    [19:47:39.989] Starting TS Server
+Info 1    [19:47:39.989] Version: 4.2.3
+Info 2    [19:47:39.989] Arguments: /home/joerter/.nvm/versions/node/v12.6.0/bin/node /home/joerter/github/joerter/custom-forms-poc/node_modules/.bin/tsserver --logFile /home/joerter/github/joerter/custom-forms-poc/.log/tsserver.log --logVerbosity info --cancellationPipeName /tmp/a8a92914408f6e3755491555a88abd6e/tscancellation*
+Info 3    [19:47:39.989] Platform: linux NodeVersion: 12 CaseSensitive: true
+Info 4    [19:47:39.989] ServerMode: undefined syntaxOnly: false hasUnknownServerMode: undefined
+Info 5    [19:47:40.005] Search path: /home/joerter/github/joerter/custom-forms-poc/src/models
+Info 6    [19:47:40.006] For info: /home/joerter/github/joerter/custom-forms-poc/src/models/form-group.interface.ts :: Config file name: /home/joerter/github/joerter/custom-forms-poc/tsconfig.json
+Info 7    [19:47:40.006] Opened configuration file /home/joerter/github/joerter/custom-forms-poc/tsconfig.json
+Info 8    [19:47:40.021] Config: /home/joerter/github/joerter/custom-forms-poc/tsconfig.json : {
+ "rootNames": [
+  "/home/joerter/github/joerter/custom-forms-poc/src/App.test.tsx",
+  "/home/joerter/github/joerter/custom-forms-poc/src/App.tsx",
+  "/home/joerter/github/joerter/custom-forms-poc/src/index.tsx",
+  "/home/joerter/github/joerter/custom-forms-poc/src/react-app-env.d.ts",
+  "/home/joerter/github/joerter/custom-forms-poc/src/reportWebVitals.ts",
+  "/home/joerter/github/joerter/custom-forms-poc/src/setupTests.ts",
+  "/home/joerter/github/joerter/custom-forms-poc/src/models/form-group.interface.ts"
+ ],
+ "options": {
+  "target": 1,
+  "lib": [
+   "lib.dom.d.ts",
+   "lib.dom.iterable.d.ts",
+   "lib.esnext.d.ts"
+  ],
+  "allowJs": true,
+  "skipLibCheck": true,
+  "esModuleInterop": true,
+  "allowSyntheticDefaultImports": true,
+  "strict": true,
+  "forceConsistentCasingInFileNames": true,
+  "noFallthroughCasesInSwitch": true,
+  "module": 99,
+  "moduleResolution": 2,
+  "resolveJsonModule": true,
+  "isolatedModules": true,
+  "noEmit": true,
+  "jsx": 4,
+  "configFilePath": "/home/joerter/github/joerter/custom-forms-poc/tsconfig.json"
+ }
+}
+Info 9    [19:47:40.084] Starting updateGraphWorker: Project: /home/joerter/github/joerter/custom-forms-poc/tsconfig.json
+Info 10   [19:47:42.075] Finishing updateGraphWorker: Project: /home/joerter/github/joerter/custom-forms-poc/tsconfig.json Version: 1 structureChanged: true Elapsed: 1991.3552470002323ms
+Info 11   [19:47:42.075] Project '/home/joerter/github/joerter/custom-forms-poc/tsconfig.json' (Configured)
+Info 12   [19:47:42.075] 	Files (188)
+
+Info 13   [19:47:42.075] -----------------------------------------------
+Info 14   [19:47:42.087] Starting updateGraphWorker: Project: /dev/null/autoImportProviderProject1*
+Info 15   [19:47:42.201] Finishing updateGraphWorker: Project: /dev/null/autoImportProviderProject1* Version: 1 structureChanged: true Elapsed: 113.24158299993724ms
+Info 16   [19:47:42.201] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 17   [19:47:42.201] 	Files (2)
+
+Info 18   [19:47:42.201] -----------------------------------------------
+Info 19   [19:48:05.323] Search path: /home/joerter/github/joerter/custom-forms-poc/src/models
+Info 20   [19:48:05.323] For info: /home/joerter/github/joerter/custom-forms-poc/src/models/form-control.interface.ts :: Config file name: /home/joerter/github/joerter/custom-forms-poc/tsconfig.json
+Info 21   [19:48:05.325] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 22   [19:48:06.290] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 1 structureChanged: true Elapsed: 964.7432960001752ms
+Info 23   [19:48:06.290] Project '/dev/null/inferredProject1*' (Inferred)
+Info 24   [19:48:06.290] 	Files (142)
+
+Info 25   [19:48:06.290] -----------------------------------------------
+Info 26   [19:48:06.299] Starting updateGraphWorker: Project: /dev/null/autoImportProviderProject2*
+Info 27   [19:48:06.766] Finishing updateGraphWorker: Project: /dev/null/autoImportProviderProject2* Version: 1 structureChanged: true Elapsed: 466.9725889991969ms
+Info 28   [19:48:06.766] Project '/dev/null/autoImportProviderProject2*' (AutoImportProvider)
+Info 29   [19:48:06.766] 	Files (83)
+
+Info 30   [19:48:06.766] -----------------------------------------------
+Info 31   [19:48:18.320] Starting updateGraphWorker: Project: /home/joerter/github/joerter/custom-forms-poc/tsconfig.json
+Info 32   [19:48:18.347] Finishing updateGraphWorker: Project: /home/joerter/github/joerter/custom-forms-poc/tsconfig.json Version: 2 structureChanged: false Elapsed: 26.988956999965012ms
+Info 33   [19:48:18.347] Different program with same set of files:: structureIsReused:: 2
+Info 34   [19:48:19.426] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 35   [19:48:19.437] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 2 structureChanged: false Elapsed: 11.035542999394238ms
+Info 36   [19:48:19.437] Different program with same set of files:: structureIsReused:: 2
+Info 37   [19:48:20.150] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 38   [19:48:20.162] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 3 structureChanged: false Elapsed: 11.227265000343323ms
+Info 39   [19:48:20.162] Different program with same set of files:: structureIsReused:: 2
+Info 40   [19:48:21.582] Starting updateGraphWorker: Project: /home/joerter/github/joerter/custom-forms-poc/tsconfig.json
+Info 41   [19:48:21.612] Finishing updateGraphWorker: Project: /home/joerter/github/joerter/custom-forms-poc/tsconfig.json Version: 3 structureChanged: false Elapsed: 29.203488999977708ms
+Info 42   [19:48:21.612] Different program with same set of files:: structureIsReused:: 2
+Info 43   [19:48:23.141] forEachExternalModuleToImportFrom: filtered out 72 modules by package.json contents
+Info 44   [19:48:23.143] forEachExternalModuleToImportFrom: filtered out 0 modules by package.json contents
+Info 45   [19:48:23.143] forEachExternalModuleToImportFrom autoImportProvider: 1.8993349997326732
+Info 46   [19:48:23.460] forEachExternalModuleToImportFrom: filtered out 72 modules by package.json contents
+Info 47   [19:48:23.461] forEachExternalModuleToImportFrom: filtered out 0 modules by package.json contents
+Info 48   [19:48:23.461] forEachExternalModuleToImportFrom autoImportProvider: 0.7312070000916719
+Info 49   [19:48:41.997] forEachExternalModuleToImportFrom: filtered out 72 modules by package.json contents
+Info 50   [19:48:41.998] forEachExternalModuleToImportFrom: filtered out 0 modules by package.json contents
+Info 51   [19:48:41.998] forEachExternalModuleToImportFrom autoImportProvider: 0.731869999319315
+Info 52   [19:48:42.274] forEachExternalModuleToImportFrom: filtered out 72 modules by package.json contents
+Info 53   [19:48:42.275] forEachExternalModuleToImportFrom: filtered out 0 modules by package.json contents
+Info 54   [19:48:42.275] forEachExternalModuleToImportFrom autoImportProvider: 0.9317719992250204
+Info 55   [19:48:59.911] forEachExternalModuleToImportFrom: filtered out 72 modules by package.json contents
+Info 56   [19:48:59.912] forEachExternalModuleToImportFrom: filtered out 0 modules by package.json contents
+Info 57   [19:48:59.912] forEachExternalModuleToImportFrom autoImportProvider: 0.3926329994574189
+Info 58   [19:49:00.194] forEachExternalModuleToImportFrom: filtered out 72 modules by package.json contents
+Info 59   [19:49:00.195] forEachExternalModuleToImportFrom: filtered out 0 modules by package.json contents
+Info 60   [19:49:00.195] forEachExternalModuleToImportFrom autoImportProvider: 0.46057500038295984
+Info 61   [19:49:10.059] forEachExternalModuleToImportFrom: filtered out 72 modules by package.json contents
+Info 62   [19:49:10.059] forEachExternalModuleToImportFrom: filtered out 0 modules by package.json contents
+Info 63   [19:49:10.059] forEachExternalModuleToImportFrom autoImportProvider: 0.374375999905169
+Info 64   [19:49:10.342] forEachExternalModuleToImportFrom: filtered out 72 modules by package.json contents
+Info 65   [19:49:10.343] forEachExternalModuleToImportFrom: filtered out 0 modules by package.json contents
+Info 66   [19:49:10.343] forEachExternalModuleToImportFrom autoImportProvider: 0.5618219999596477
+Info 67   [19:49:10.672] forEachExternalModuleToImportFrom: filtered out 72 modules by package.json contents
+Info 68   [19:49:10.672] forEachExternalModuleToImportFrom: filtered out 0 modules by package.json contents
+Info 69   [19:49:10.673] forEachExternalModuleToImportFrom autoImportProvider: 0.3724569994956255
+Info 70   [19:49:26.114] forEachExternalModuleToImportFrom: filtered out 72 modules by package.json contents
+Info 71   [19:49:26.115] forEachExternalModuleToImportFrom: filtered out 0 modules by package.json contents
+Info 72   [19:49:26.115] forEachExternalModuleToImportFrom autoImportProvider: 0.3953769998624921
+Info 73   [19:49:26.889] forEachExternalModuleToImportFrom: filtered out 72 modules by package.json contents
+Info 74   [19:49:26.891] forEachExternalModuleToImportFrom: filtered out 0 modules by package.json contents
+Info 75   [19:49:26.891] forEachExternalModuleToImportFrom autoImportProvider: 1.1548119997605681
+Info 76   [19:49:41.802] forEachExternalModuleToImportFrom: filtered out 72 modules by package.json contents
+Info 77   [19:49:41.803] forEachExternalModuleToImportFrom: filtered out 0 modules by package.json contents
+Info 78   [19:49:41.803] forEachExternalModuleToImportFrom autoImportProvider: 0.388756999745965
+Info 79   [19:49:42.125] forEachExternalModuleToImportFrom: filtered out 72 modules by package.json contents
+Info 80   [19:49:42.125] forEachExternalModuleToImportFrom: filtered out 0 modules by package.json contents
+Info 81   [19:49:42.126] forEachExternalModuleToImportFrom autoImportProvider: 0.4175960002467036
+Info 82   [19:49:43.654] forEachExternalModuleToImportFrom: filtered out 72 modules by package.json contents
+Info 83   [19:49:43.654] forEachExternalModuleToImportFrom: filtered out 0 modules by package.json contents
+Info 84   [19:49:43.655] forEachExternalModuleToImportFrom autoImportProvider: 0.7808949993923306
+Info 85   [19:49:43.946] forEachExternalModuleToImportFrom: filtered out 72 modules by package.json contents
+Info 86   [19:49:43.947] forEachExternalModuleToImportFrom: filtered out 0 modules by package.json contents
+Info 87   [19:49:43.947] forEachExternalModuleToImportFrom autoImportProvider: 0.42130300030112267
+Info 88   [19:49:44.217] forEachExternalModuleToImportFrom: filtered out 72 modules by package.json contents
+Info 89   [19:49:44.218] forEachExternalModuleToImportFrom: filtered out 0 modules by package.json contents
+Info 90   [19:49:44.218] forEachExternalModuleToImportFrom autoImportProvider: 0.4843659996986389
+Info 91   [19:49:53.103] forEachExternalModuleToImportFrom: filtered out 72 modules by package.json contents
+Info 92   [19:49:53.103] forEachExternalModuleToImportFrom: filtered out 0 modules by package.json contents
+Info 93   [19:49:53.103] forEachExternalModuleToImportFrom autoImportProvider: 0.3814709996804595
+Info 94   [19:49:53.398] forEachExternalModuleToImportFrom: filtered out 72 modules by package.json contents
+Info 95   [19:49:53.399] forEachExternalModuleToImportFrom: filtered out 0 modules by package.json contents
+Info 96   [19:49:53.399] forEachExternalModuleToImportFrom autoImportProvider: 0.5919899996370077
+Info 97   [19:49:54.977] forEachExternalModuleToImportFrom: filtered out 72 modules by package.json contents
+Info 98   [19:49:54.977] forEachExternalModuleToImportFrom: filtered out 0 modules by package.json contents
+Info 99   [19:49:54.977] forEachExternalModuleToImportFrom autoImportProvider: 0.4970399998128414
+Info 100  [19:49:55.664] forEachExternalModuleToImportFrom: filtered out 72 modules by package.json contents
+Info 101  [19:49:55.665] forEachExternalModuleToImportFrom: filtered out 0 modules by package.json contents
+Info 102  [19:49:55.665] forEachExternalModuleToImportFrom autoImportProvider: 0.4902630001306534
+Info 103  [19:49:55.944] forEachExternalModuleToImportFrom: filtered out 72 modules by package.json contents
+Info 104  [19:49:55.945] forEachExternalModuleToImportFrom: filtered out 0 modules by package.json contents
+Info 105  [19:49:55.945] forEachExternalModuleToImportFrom autoImportProvider: 0.39489199966192245
+Info 106  [19:49:57.815] forEachExternalModuleToImportFrom: filtered out 72 modules by package.json contents
+Info 107  [19:49:57.816] forEachExternalModuleToImportFrom: filtered out 0 modules by package.json contents
+Info 108  [19:49:57.816] forEachExternalModuleToImportFrom autoImportProvider: 0.8086780002340674
+Info 109  [19:49:58.120] forEachExternalModuleToImportFrom: filtered out 72 modules by package.json contents
+Info 110  [19:49:58.120] forEachExternalModuleToImportFrom: filtered out 0 modules by package.json contents
+Info 111  [19:49:58.121] forEachExternalModuleToImportFrom autoImportProvider: 0.6237110001966357
+Info 112  [19:49:59.331] Starting updateGraphWorker: Project: /home/joerter/github/joerter/custom-forms-poc/tsconfig.json
+Info 113  [19:49:59.346] Finishing updateGraphWorker: Project: /home/joerter/github/joerter/custom-forms-poc/tsconfig.json Version: 4 structureChanged: false Elapsed: 14.129949999973178ms
+Info 114  [19:49:59.346] Different program with same set of files:: structureIsReused:: 2
+Info 115  [19:49:59.707] Starting updateGraphWorker: Project: /home/joerter/github/joerter/custom-forms-poc/tsconfig.json
+Info 116  [19:49:59.727] Finishing updateGraphWorker: Project: /home/joerter/github/joerter/custom-forms-poc/tsconfig.json Version: 5 structureChanged: false Elapsed: 19.83851100038737ms
+Info 117  [19:49:59.727] Different program with same set of files:: structureIsReused:: 2
+Info 118  [19:50:02.064] Starting updateGraphWorker: Project: /home/joerter/github/joerter/custom-forms-poc/tsconfig.json
+Info 119  [19:50:02.079] Finishing updateGraphWorker: Project: /home/joerter/github/joerter/custom-forms-poc/tsconfig.json Version: 6 structureChanged: false Elapsed: 15.437404999509454ms
+Info 120  [19:50:02.079] Different program with same set of files:: structureIsReused:: 2
+Info 121  [19:50:03.334] Starting updateGraphWorker: Project: /home/joerter/github/joerter/custom-forms-poc/tsconfig.json
+Info 122  [19:50:03.369] Finishing updateGraphWorker: Project: /home/joerter/github/joerter/custom-forms-poc/tsconfig.json Version: 7 structureChanged: false Elapsed: 35.05597599968314ms
+Info 123  [19:50:03.369] Different program with same set of files:: structureIsReused:: 2
+Info 124  [19:50:03.821] Starting updateGraphWorker: Project: /home/joerter/github/joerter/custom-forms-poc/tsconfig.json
+Info 125  [19:50:03.850] Finishing updateGraphWorker: Project: /home/joerter/github/joerter/custom-forms-poc/tsconfig.json Version: 8 structureChanged: false Elapsed: 28.719484999775887ms
+Info 126  [19:50:03.850] Different program with same set of files:: structureIsReused:: 2
+Info 127  [19:50:04.500] Starting updateGraphWorker: Project: /home/joerter/github/joerter/custom-forms-poc/tsconfig.json
+Info 128  [19:50:04.525] Finishing updateGraphWorker: Project: /home/joerter/github/joerter/custom-forms-poc/tsconfig.json Version: 9 structureChanged: false Elapsed: 24.48687699995935ms
+Info 129  [19:50:04.525] Different program with same set of files:: structureIsReused:: 2
+Info 130  [19:50:04.525] Starting updateGraphWorker: Project: /home/joerter/github/joerter/custom-forms-poc/tsconfig.json
+Info 131  [19:50:04.536] Finishing updateGraphWorker: Project: /home/joerter/github/joerter/custom-forms-poc/tsconfig.json Version: 10 structureChanged: false Elapsed: 10.756159999407828ms
+Info 132  [19:50:04.536] Different program with same set of files:: structureIsReused:: 2
+Info 133  [19:50:05.860] Starting updateGraphWorker: Project: /home/joerter/github/joerter/custom-forms-poc/tsconfig.json
+Info 134  [19:50:05.900] Finishing updateGraphWorker: Project: /home/joerter/github/joerter/custom-forms-poc/tsconfig.json Version: 11 structureChanged: false Elapsed: 39.847377999685705ms
+Info 135  [19:50:05.900] Different program with same set of files:: structureIsReused:: 2
+Info 136  [19:50:05.900] Starting updateGraphWorker: Project: /home/joerter/github/joerter/custom-forms-poc/tsconfig.json
+Info 137  [19:50:05.914] Finishing updateGraphWorker: Project: /home/joerter/github/joerter/custom-forms-poc/tsconfig.json Version: 12 structureChanged: false Elapsed: 13.085338999517262ms
+Info 138  [19:50:05.914] Different program with same set of files:: structureIsReused:: 2
+Info 139  [19:50:06.328] Starting updateGraphWorker: Project: /home/joerter/github/joerter/custom-forms-poc/tsconfig.json
+Info 140  [19:50:06.358] Finishing updateGraphWorker: Project: /home/joerter/github/joerter/custom-forms-poc/tsconfig.json Version: 13 structureChanged: false Elapsed: 30.468297000043094ms
+Info 141  [19:50:06.358] Different program with same set of files:: structureIsReused:: 2
+Info 142  [19:50:07.250] Starting updateGraphWorker: Project: /home/joerter/github/joerter/custom-forms-poc/tsconfig.json
+Info 143  [19:50:07.275] Finishing updateGraphWorker: Project: /home/joerter/github/joerter/custom-forms-poc/tsconfig.json Version: 14 structureChanged: false Elapsed: 24.642904999665916ms
+Info 144  [19:50:07.275] Different program with same set of files:: structureIsReused:: 2
+Info 145  [19:50:08.076] Starting updateGraphWorker: Project: /home/joerter/github/joerter/custom-forms-poc/tsconfig.json
+Info 146  [19:50:08.093] Finishing updateGraphWorker: Project: /home/joerter/github/joerter/custom-forms-poc/tsconfig.json Version: 15 structureChanged: false Elapsed: 17.24636400025338ms
+Info 147  [19:50:08.093] Different program with same set of files:: structureIsReused:: 2
+Info 148  [19:50:08.362] Starting updateGraphWorker: Project: /home/joerter/github/joerter/custom-forms-poc/tsconfig.json
+Info 149  [19:50:08.439] Finishing updateGraphWorker: Project: /home/joerter/github/joerter/custom-forms-poc/tsconfig.json Version: 16 structureChanged: true Elapsed: 76.58803700003773ms
+Info 150  [19:50:08.439] Different program with same set of files:: structureIsReused:: 1
+Info 151  [19:50:08.440] Starting updateGraphWorker: Project: /home/joerter/github/joerter/custom-forms-poc/tsconfig.json
+Info 152  [19:50:08.485] Finishing updateGraphWorker: Project: /home/joerter/github/joerter/custom-forms-poc/tsconfig.json Version: 17 structureChanged: true Elapsed: 45.446576999500394ms
+Info 153  [19:50:08.485] Different program with same set of files:: structureIsReused:: 1
+Info 154  [19:50:09.233] Starting updateGraphWorker: Project: /home/joerter/github/joerter/custom-forms-poc/tsconfig.json
+Info 155  [19:50:09.282] Finishing updateGraphWorker: Project: /home/joerter/github/joerter/custom-forms-poc/tsconfig.json Version: 18 structureChanged: true Elapsed: 48.30844699963927ms
+Info 156  [19:50:09.282] Different program with same set of files:: structureIsReused:: 1
+Info 157  [19:50:10.769] Starting updateGraphWorker: Project: /home/joerter/github/joerter/custom-forms-poc/tsconfig.json
+Info 158  [19:50:10.815] Finishing updateGraphWorker: Project: /home/joerter/github/joerter/custom-forms-poc/tsconfig.json Version: 19 structureChanged: true Elapsed: 46.046377000398934ms
+Info 159  [19:50:10.815] Different program with same set of files:: structureIsReused:: 1
+Info 160  [19:50:10.819] Starting updateGraphWorker: Project: /home/joerter/github/joerter/custom-forms-poc/tsconfig.json
+Info 161  [19:50:10.871] Finishing updateGraphWorker: Project: /home/joerter/github/joerter/custom-forms-poc/tsconfig.json Version: 20 structureChanged: true Elapsed: 52.40750299952924ms
+Info 162  [19:50:10.872] Different program with same set of files:: structureIsReused:: 1
+Info 163  [19:50:11.443] Starting updateGraphWorker: Project: /home/joerter/github/joerter/custom-forms-poc/tsconfig.json
+Info 164  [19:50:11.486] Finishing updateGraphWorker: Project: /home/joerter/github/joerter/custom-forms-poc/tsconfig.json Version: 21 structureChanged: true Elapsed: 43.159940000623465ms
+Info 165  [19:50:11.486] Different program with same set of files:: structureIsReused:: 1
+Info 166  [19:50:11.833] Starting updateGraphWorker: Project: /home/joerter/github/joerter/custom-forms-poc/tsconfig.json
+Info 167  [19:50:11.898] Finishing updateGraphWorker: Project: /home/joerter/github/joerter/custom-forms-poc/tsconfig.json Version: 22 structureChanged: true Elapsed: 64.84487800020725ms
+Info 168  [19:50:11.898] Different program with same set of files:: structureIsReused:: 1
+Info 169  [19:50:11.899] Starting updateGraphWorker: Project: /home/joerter/github/joerter/custom-forms-poc/tsconfig.json
+Info 170  [19:50:11.939] Finishing updateGraphWorker: Project: /home/joerter/github/joerter/custom-forms-poc/tsconfig.json Version: 23 structureChanged: true Elapsed: 39.428573000244796ms
+Info 171  [19:50:11.939] Different program with same set of files:: structureIsReused:: 1
+Info 172  [19:50:12.641] Starting updateGraphWorker: Project: /home/joerter/github/joerter/custom-forms-poc/tsconfig.json
+Info 173  [19:50:12.676] Finishing updateGraphWorker: Project: /home/joerter/github/joerter/custom-forms-poc/tsconfig.json Version: 24 structureChanged: true Elapsed: 34.383097999729216ms
+Info 174  [19:50:12.676] Different program with same set of files:: structureIsReused:: 1
+Info 175  [19:50:13.103] Starting updateGraphWorker: Project: /home/joerter/github/joerter/custom-forms-poc/tsconfig.json
+Info 176  [19:50:13.165] Finishing updateGraphWorker: Project: /home/joerter/github/joerter/custom-forms-poc/tsconfig.json Version: 25 structureChanged: true Elapsed: 62.453883999958634ms
+Info 177  [19:50:13.165] Different program with same set of files:: structureIsReused:: 1
+Info 178  [19:50:14.531] Starting updateGraphWorker: Project: /home/joerter/github/joerter/custom-forms-poc/tsconfig.json
+Info 179  [19:50:14.572] Finishing updateGraphWorker: Project: /home/joerter/github/joerter/custom-forms-poc/tsconfig.json Version: 26 structureChanged: true Elapsed: 40.66848099976778ms
+Info 180  [19:50:14.572] Different program with same set of files:: structureIsReused:: 1
+Info 181  [19:50:14.574] Starting updateGraphWorker: Project: /home/joerter/github/joerter/custom-forms-poc/tsconfig.json
+Info 182  [19:50:14.615] Finishing updateGraphWorker: Project: /home/joerter/github/joerter/custom-forms-poc/tsconfig.json Version: 27 structureChanged: true Elapsed: 41.01208599936217ms
+Info 183  [19:50:14.615] Different program with same set of files:: structureIsReused:: 1
+Info 184  [19:50:14.959] Starting updateGraphWorker: Project: /home/joerter/github/joerter/custom-forms-poc/tsconfig.json
+Info 185  [19:50:14.968] Finishing updateGraphWorker: Project: /home/joerter/github/joerter/custom-forms-poc/tsconfig.json Version: 28 structureChanged: false Elapsed: 8.610541999340057ms
+Info 186  [19:50:14.968] Different program with same set of files:: structureIsReused:: 2
+Info 187  [19:50:15.275] Starting updateGraphWorker: Project: /home/joerter/github/joerter/custom-forms-poc/tsconfig.json
+Info 188  [19:50:15.299] Finishing updateGraphWorker: Project: /home/joerter/github/joerter/custom-forms-poc/tsconfig.json Version: 29 structureChanged: false Elapsed: 23.851559000089765ms
+Info 189  [19:50:15.299] Different program with same set of files:: structureIsReused:: 2
+Info 190  [19:50:15.567] Starting updateGraphWorker: Project: /home/joerter/github/joerter/custom-forms-poc/tsconfig.json
+Info 191  [19:50:15.584] Finishing updateGraphWorker: Project: /home/joerter/github/joerter/custom-forms-poc/tsconfig.json Version: 30 structureChanged: false Elapsed: 16.737517999485135ms
+Info 192  [19:50:15.584] Different program with same set of files:: structureIsReused:: 2
+Info 193  [19:50:37.747] Starting updateGraphWorker: Project: /home/joerter/github/joerter/custom-forms-poc/tsconfig.json
+Info 194  [19:50:37.801] Finishing updateGraphWorker: Project: /home/joerter/github/joerter/custom-forms-poc/tsconfig.json Version: 31 structureChanged: true Elapsed: 54.208250999450684ms
+Info 195  [19:50:37.801] Different program with same set of files:: structureIsReused:: 1
+Info 196  [19:50:38.188] Starting updateGraphWorker: Project: /home/joerter/github/joerter/custom-forms-poc/tsconfig.json
+Info 197  [19:50:38.223] Finishing updateGraphWorker: Project: /home/joerter/github/joerter/custom-forms-poc/tsconfig.json Version: 32 structureChanged: false Elapsed: 34.38595300074667ms
+Info 198  [19:50:38.223] Different program with same set of files:: structureIsReused:: 2
+Info 199  [19:50:41.212] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 200  [19:50:41.231] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 4 structureChanged: false Elapsed: 18.27713800035417ms
+Info 201  [19:50:41.231] Different program with same set of files:: structureIsReused:: 2
+Info 202  [19:50:43.354] Starting updateGraphWorker: Project: /home/joerter/github/joerter/custom-forms-poc/tsconfig.json
+Info 203  [19:50:43.367] Finishing updateGraphWorker: Project: /home/joerter/github/joerter/custom-forms-poc/tsconfig.json Version: 33 structureChanged: false Elapsed: 12.506590000353754ms
+Info 204  [19:50:43.367] Different program with same set of files:: structureIsReused:: 2
+Info 205  [19:50:44.069] Starting updateGraphWorker: Project: /home/joerter/github/joerter/custom-forms-poc/tsconfig.json
+Info 206  [19:50:44.100] Finishing updateGraphWorker: Project: /home/joerter/github/joerter/custom-forms-poc/tsconfig.json Version: 34 structureChanged: false Elapsed: 31.076934999786317ms
+Info 207  [19:50:44.100] Different program with same set of files:: structureIsReused:: 2
+Info 208  [19:50:44.440] Starting updateGraphWorker: Project: /home/joerter/github/joerter/custom-forms-poc/tsconfig.json
+Info 209  [19:50:44.470] Finishing updateGraphWorker: Project: /home/joerter/github/joerter/custom-forms-poc/tsconfig.json Version: 35 structureChanged: false Elapsed: 29.68713500071317ms
+Info 210  [19:50:44.470] Different program with same set of files:: structureIsReused:: 2
+Info 211  [19:50:56.441] Starting updateGraphWorker: Project: /home/joerter/github/joerter/custom-forms-poc/tsconfig.json
+Info 212  [19:50:56.457] Finishing updateGraphWorker: Project: /home/joerter/github/joerter/custom-forms-poc/tsconfig.json Version: 36 structureChanged: false Elapsed: 15.035623000003397ms
+Info 213  [19:50:56.457] Different program with same set of files:: structureIsReused:: 2
+Info 214  [19:50:56.475] Starting updateGraphWorker: Project: /home/joerter/github/joerter/custom-forms-poc/tsconfig.json
+Info 215  [19:50:56.489] Finishing updateGraphWorker: Project: /home/joerter/github/joerter/custom-forms-poc/tsconfig.json Version: 37 structureChanged: false Elapsed: 14.265700999647379ms
+Info 216  [19:50:56.489] Different program with same set of files:: structureIsReused:: 2
+Info 217  [19:50:57.177] Starting updateGraphWorker: Project: /home/joerter/github/joerter/custom-forms-poc/tsconfig.json
+Info 218  [19:50:57.196] Finishing updateGraphWorker: Project: /home/joerter/github/joerter/custom-forms-poc/tsconfig.json Version: 38 structureChanged: false Elapsed: 18.4548779996112ms
+Info 219  [19:50:57.196] Different program with same set of files:: structureIsReused:: 2
+Info 220  [19:50:57.579] Starting updateGraphWorker: Project: /home/joerter/github/joerter/custom-forms-poc/tsconfig.json
+Info 221  [19:50:57.609] Finishing updateGraphWorker: Project: /home/joerter/github/joerter/custom-forms-poc/tsconfig.json Version: 39 structureChanged: false Elapsed: 29.633040999993682ms
+Info 222  [19:50:57.609] Different program with same set of files:: structureIsReused:: 2
+Info 223  [19:51:24.567] Search path: /home/joerter/github/joerter/custom-forms-poc/src
+Info 224  [19:51:24.567] For info: /home/joerter/github/joerter/custom-forms-poc/src/test-forms.ts :: Config file name: /home/joerter/github/joerter/custom-forms-poc/tsconfig.json
+Info 225  [19:51:24.573] Starting updateGraphWorker: Project: /dev/null/inferredProject2*
+Info 226  [19:51:24.770] Finishing updateGraphWorker: Project: /dev/null/inferredProject2* Version: 1 structureChanged: true Elapsed: 197.24705599993467ms
+Info 227  [19:51:24.770] Project '/dev/null/inferredProject2*' (Inferred)
+Info 228  [19:51:24.770] 	Files (142)
+
+Info 229  [19:51:24.770] -----------------------------------------------
+Info 230  [19:51:24.784] Starting updateGraphWorker: Project: /dev/null/autoImportProviderProject3*
+Info 231  [19:51:24.834] Finishing updateGraphWorker: Project: /dev/null/autoImportProviderProject3* Version: 1 structureChanged: true Elapsed: 49.65995700005442ms
+Info 232  [19:51:24.834] Project '/dev/null/autoImportProviderProject3*' (AutoImportProvider)
+Info 233  [19:51:24.834] 	Files (83)
+
+Info 234  [19:51:24.834] -----------------------------------------------
+Info 235  [19:51:30.006] Starting updateGraphWorker: Project: /home/joerter/github/joerter/custom-forms-poc/tsconfig.json
+Info 236  [19:51:30.038] Finishing updateGraphWorker: Project: /home/joerter/github/joerter/custom-forms-poc/tsconfig.json Version: 40 structureChanged: false Elapsed: 32.48894799966365ms
+Info 237  [19:51:30.038] Different program with same set of files:: structureIsReused:: 2
+Info 238  [19:51:31.250] Starting updateGraphWorker: Project: /dev/null/inferredProject2*
+Info 239  [19:51:31.260] Finishing updateGraphWorker: Project: /dev/null/inferredProject2* Version: 2 structureChanged: false Elapsed: 9.083775999955833ms
+Info 240  [19:51:31.260] Different program with same set of files:: structureIsReused:: 2
+Info 241  [19:51:31.939] Starting updateGraphWorker: Project: /dev/null/inferredProject2*
+Info 242  [19:51:31.963] Finishing updateGraphWorker: Project: /dev/null/inferredProject2* Version: 3 structureChanged: false Elapsed: 24.067158999852836ms
+Info 243  [19:51:31.963] Different program with same set of files:: structureIsReused:: 2
+Info 244  [19:51:33.851] Starting updateGraphWorker: Project: /dev/null/inferredProject2*
+Info 245  [19:51:33.873] Finishing updateGraphWorker: Project: /dev/null/inferredProject2* Version: 4 structureChanged: false Elapsed: 21.843426000326872ms
+Info 246  [19:51:33.873] Different program with same set of files:: structureIsReused:: 2
+Info 247  [19:51:34.672] DirectoryWatcher:: Triggered with /home/joerter/github/joerter/custom-forms-poc/src/test-forms.ts 0:: WatchInfo: /home/joerter/github/joerter/custom-forms-poc/src 1 undefined Project: /home/joerter/github/joerter/custom-forms-poc/tsconfig.json WatchType: Wild card directory
+Info 248  [19:51:34.675] Elapsed:: 2.0101380003616214ms DirectoryWatcher:: Triggered with /home/joerter/github/joerter/custom-forms-poc/src/test-forms.ts 0:: WatchInfo: /home/joerter/github/joerter/custom-forms-poc/src 1 undefined Project: /home/joerter/github/joerter/custom-forms-poc/tsconfig.json WatchType: Wild card directory
+Info 249  [19:51:34.675] DirectoryWatcher:: Triggered with /home/joerter/github/joerter/custom-forms-poc/src/test-forms.ts 0:: WatchInfo: /home/joerter/github/joerter/custom-forms-poc/src 1 undefined Project: /home/joerter/github/joerter/custom-forms-poc/tsconfig.json WatchType: Failed Lookup Locations
+Info 250  [19:51:34.675] Elapsed:: 0.1902439994737506ms DirectoryWatcher:: Triggered with /home/joerter/github/joerter/custom-forms-poc/src/test-forms.ts 0:: WatchInfo: /home/joerter/github/joerter/custom-forms-poc/src 1 undefined Project: /home/joerter/github/joerter/custom-forms-poc/tsconfig.json WatchType: Failed Lookup Locations
+Info 251  [19:51:34.935] Starting updateGraphWorker: Project: /home/joerter/github/joerter/custom-forms-poc/tsconfig.json
+Info 252  [19:51:35.013] Finishing updateGraphWorker: Project: /home/joerter/github/joerter/custom-forms-poc/tsconfig.json Version: 41 structureChanged: true Elapsed: 77.86257899925113ms
+Info 253  [19:51:35.014] Project '/home/joerter/github/joerter/custom-forms-poc/tsconfig.json' (Configured)
+Info 254  [19:51:35.014] 	Files (189)
+
+Info 255  [19:51:35.014] -----------------------------------------------
+Info 256  [19:51:35.014] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 257  [19:51:35.014] 	Files (2)
+
+Info 258  [19:51:35.014] -----------------------------------------------
+Info 259  [19:51:36.060] Starting updateGraphWorker: Project: /home/joerter/github/joerter/custom-forms-poc/tsconfig.json
+Info 260  [19:51:36.071] Finishing updateGraphWorker: Project: /home/joerter/github/joerter/custom-forms-poc/tsconfig.json Version: 42 structureChanged: false Elapsed: 10.91960799973458ms
+Info 261  [19:51:36.071] Different program with same set of files:: structureIsReused:: 2
+Info 262  [19:51:37.176] Before ensureProjectForOpenFiles:
+Info 263  [19:51:37.176] Starting updateGraphWorker: Project: /dev/null/inferredProject2*
+Info 264  [19:51:37.196] Finishing updateGraphWorker: Project: /dev/null/inferredProject2* Version: 5 structureChanged: true Elapsed: 19.261722000315785ms
+Info 265  [19:51:37.196] Project '/dev/null/inferredProject2*' (Inferred)
+Info 266  [19:51:37.196] 	Files (0)
+
+Info 267  [19:51:37.196] -----------------------------------------------
+Info 268  [19:51:37.196] Project '/dev/null/autoImportProviderProject3*' (AutoImportProvider)
+Info 269  [19:51:37.196] 	Files (83)
+
+Info 270  [19:51:37.196] -----------------------------------------------
+Info 271  [19:51:37.197] After ensureProjectForOpenFiles:
+Info 272  [19:51:37.197] got projects updated in background, updating diagnostics for /home/joerter/github/joerter/custom-forms-poc/src/models/form-group.interface.ts,/home/joerter/github/joerter/custom-forms-poc/src/models/form-control.interface.ts,/home/joerter/github/joerter/custom-forms-poc/src/test-forms.ts
+Info 273  [19:51:37.977] Starting updateGraphWorker: Project: /home/joerter/github/joerter/custom-forms-poc/tsconfig.json
+Info 274  [19:51:38.002] Finishing updateGraphWorker: Project: /home/joerter/github/joerter/custom-forms-poc/tsconfig.json Version: 43 structureChanged: false Elapsed: 24.446527000516653ms
+Info 275  [19:51:38.002] Different program with same set of files:: structureIsReused:: 2
+Info 276  [19:51:38.730] Starting updateGraphWorker: Project: /home/joerter/github/joerter/custom-forms-poc/tsconfig.json
+Info 277  [19:51:38.745] Finishing updateGraphWorker: Project: /home/joerter/github/joerter/custom-forms-poc/tsconfig.json Version: 44 structureChanged: false Elapsed: 14.672577999532223ms
+Info 278  [19:51:38.745] Different program with same set of files:: structureIsReused:: 2
+Info 279  [19:51:40.942] forEachExternalModuleToImportFrom: filtered out 72 modules by package.json contents
+Info 280  [19:51:40.951] Starting updateGraphWorker: Project: /dev/null/autoImportProviderProject1*
+Info 281  [19:51:40.951] Finishing updateGraphWorker: Project: /dev/null/autoImportProviderProject1* Version: 2 structureChanged: false Elapsed: 0.2946810005232692ms
+Info 282  [19:51:40.952] forEachExternalModuleToImportFrom: filtered out 0 modules by package.json contents
+Info 283  [19:51:40.952] forEachExternalModuleToImportFrom autoImportProvider: 0.3363169999793172
+Info 284  [19:51:41.260] forEachExternalModuleToImportFrom: filtered out 72 modules by package.json contents
+Info 285  [19:51:41.260] forEachExternalModuleToImportFrom: filtered out 0 modules by package.json contents
+Info 286  [19:51:41.260] forEachExternalModuleToImportFrom autoImportProvider: 0.3745659999549389
+Info 287  [19:51:42.328] forEachExternalModuleToImportFrom: filtered out 72 modules by package.json contents
+Info 288  [19:51:42.331] forEachExternalModuleToImportFrom: filtered out 0 modules by package.json contents
+Info 289  [19:51:42.331] forEachExternalModuleToImportFrom autoImportProvider: 2.6265999991446733
+Info 290  [19:51:42.622] forEachExternalModuleToImportFrom: filtered out 72 modules by package.json contents
+Info 291  [19:51:42.623] forEachExternalModuleToImportFrom: filtered out 0 modules by package.json contents
+Info 292  [19:51:42.623] forEachExternalModuleToImportFrom autoImportProvider: 0.9063889998942614
+Info 293  [19:51:44.395] forEachExternalModuleToImportFrom: filtered out 72 modules by package.json contents
+Info 294  [19:51:44.395] forEachExternalModuleToImportFrom: filtered out 0 modules by package.json contents
+Info 295  [19:51:44.396] forEachExternalModuleToImportFrom autoImportProvider: 0.6829389994964004
+Info 296  [19:51:44.695] forEachExternalModuleToImportFrom: filtered out 72 modules by package.json contents
+Info 297  [19:51:44.696] forEachExternalModuleToImportFrom: filtered out 0 modules by package.json contents
+Info 298  [19:51:44.696] forEachExternalModuleToImportFrom autoImportProvider: 0.5741059994325042
+Info 299  [19:51:47.898] forEachExternalModuleToImportFrom: filtered out 72 modules by package.json contents
+Info 300  [19:51:47.898] forEachExternalModuleToImportFrom: filtered out 0 modules by package.json contents
+Info 301  [19:51:47.898] forEachExternalModuleToImportFrom autoImportProvider: 0.28977900091558695
+Info 302  [19:51:48.198] forEachExternalModuleToImportFrom: filtered out 72 modules by package.json contents
+Info 303  [19:51:48.198] forEachExternalModuleToImportFrom: filtered out 0 modules by package.json contents
+Info 304  [19:51:48.198] forEachExternalModuleToImportFrom autoImportProvider: 0.35240000020712614
+Info 305  [19:51:51.745] forEachExternalModuleToImportFrom: filtered out 72 modules by package.json contents
+Info 306  [19:51:51.746] forEachExternalModuleToImportFrom: filtered out 0 modules by package.json contents
+Info 307  [19:51:51.746] forEachExternalModuleToImportFrom autoImportProvider: 0.9196170000359416
+Info 308  [19:51:52.052] forEachExternalModuleToImportFrom: filtered out 72 modules by package.json contents
+Info 309  [19:51:52.052] forEachExternalModuleToImportFrom: filtered out 0 modules by package.json contents
+Info 310  [19:51:52.052] forEachExternalModuleToImportFrom autoImportProvider: 0.28584699984639883
+Info 311  [19:51:56.957] Starting updateGraphWorker: Project: /home/joerter/github/joerter/custom-forms-poc/tsconfig.json
+Info 312  [19:51:57.032] Finishing updateGraphWorker: Project: /home/joerter/github/joerter/custom-forms-poc/tsconfig.json Version: 45 structureChanged: true Elapsed: 75.01974000036716ms
+Info 313  [19:51:57.032] Different program with same set of files:: structureIsReused:: 1
+Info 314  [19:52:04.606] Starting updateGraphWorker: Project: /home/joerter/github/joerter/custom-forms-poc/tsconfig.json
+Info 315  [19:52:04.651] Finishing updateGraphWorker: Project: /home/joerter/github/joerter/custom-forms-poc/tsconfig.json Version: 46 structureChanged: true Elapsed: 44.229338000528514ms
+Info 316  [19:52:04.651] Different program with same set of files:: structureIsReused:: 1
+Err 317   [19:52:08.006] Exception on executing command {"command":"getCodeFixes","seq":547,"type":"request","arguments":{"file":"/home/joerter/github/joerter/custom-forms-poc/src/test-forms.ts","startLine":1,"startOffset":1,"endLine":1,"endOffset":1,"errorCodes":[1002,2307]}}:
+
+    Debug Failure. Invalid cast. The supplied value [object Object] did not pass the test 'isStringLiteral'.
+
+    Error: Debug Failure. Invalid cast. The supplied value [object Object] did not pass the test 'isStringLiteral'.
+        at Object.cast (/home/joerter/github/joerter/custom-forms-poc/node_modules/typescript/lib/tsserver.js:1500:25)
+        at tryGetImportedPackageName (/home/joerter/github/joerter/custom-forms-poc/node_modules/typescript/lib/tsserver.js:139693:33)
+        at Object.getCodeActions (/home/joerter/github/joerter/custom-forms-poc/node_modules/typescript/lib/tsserver.js:139661:35)
+        at /home/joerter/github/joerter/custom-forms-poc/node_modules/typescript/lib/tsserver.js:135491:77
+        at Object.flatMap (/home/joerter/github/joerter/custom-forms-poc/node_modules/typescript/lib/tsserver.js:515:25)
+        at Object.getFixes (/home/joerter/github/joerter/custom-forms-poc/node_modules/typescript/lib/tsserver.js:135491:23)
+        at /home/joerter/github/joerter/custom-forms-poc/node_modules/typescript/lib/tsserver.js:149557:35
+        at Object.flatMap (/home/joerter/github/joerter/custom-forms-poc/node_modules/typescript/lib/tsserver.js:515:25)
+        at Object.getCodeFixesAtPosition (/home/joerter/github/joerter/custom-forms-poc/node_modules/typescript/lib/tsserver.js:149555:23)
+        at IOSession.Session.getCodeFixes (/home/joerter/github/joerter/custom-forms-poc/node_modules/typescript/lib/tsserver.js:160663:64)
+        at Session.handlers.ts.Map.ts.getEntries._a.<computed> (/home/joerter/github/joerter/custom-forms-poc/node_modules/typescript/lib/tsserver.js:159335:61)
+        at /home/joerter/github/joerter/custom-forms-poc/node_modules/typescript/lib/tsserver.js:160963:88
+        at IOSession.Session.executeWithRequestId (/home/joerter/github/joerter/custom-forms-poc/node_modules/typescript/lib/tsserver.js:160954:28)
+        at IOSession.Session.executeCommand (/home/joerter/github/joerter/custom-forms-poc/node_modules/typescript/lib/tsserver.js:160963:33)
+        at IOSession.Session.onMessage (/home/joerter/github/joerter/custom-forms-poc/node_modules/typescript/lib/tsserver.js:160989:35)
+        at Interface.<anonymous> (/home/joerter/github/joerter/custom-forms-poc/node_modules/typescript/lib/tsserver.js:163650:31)
+        at Interface.emit (events.js:203:13)
+        at Interface._onLine (readline.js:314:10)
+        at Interface._normalWrite (readline.js:459:12)
+        at Socket.ondata (readline.js:170:10)
+        at Socket.emit (events.js:203:13)
+        at addChunk (_stream_readable.js:294:12)
+        at readableAddChunk (_stream_readable.js:275:11)
+        at Socket.Readable.push (_stream_readable.js:210:10)
+        at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)
+Info 318  [19:52:09.366] Starting updateGraphWorker: Project: /home/joerter/github/joerter/custom-forms-poc/tsconfig.json
+Info 319  [19:52:09.425] Finishing updateGraphWorker: Project: /home/joerter/github/joerter/custom-forms-poc/tsconfig.json Version: 47 structureChanged: true Elapsed: 57.980055000633ms
+Info 320  [19:52:09.425] Different program with same set of files:: structureIsReused:: 1
+Info 321  [19:53:04.984] DirectoryWatcher:: Triggered with /home/joerter/github/joerter/custom-forms-poc/src/models/form-control.interface.ts 0:: WatchInfo: /home/joerter/github/joerter/custom-forms-poc/src 1 undefined Project: /home/joerter/github/joerter/custom-forms-poc/tsconfig.json WatchType: Wild card directory
+Info 322  [19:53:04.985] Elapsed:: 0.7493770001456141ms DirectoryWatcher:: Triggered with /home/joerter/github/joerter/custom-forms-poc/src/models/form-control.interface.ts 0:: WatchInfo: /home/joerter/github/joerter/custom-forms-poc/src 1 undefined Project: /home/joerter/github/joerter/custom-forms-poc/tsconfig.json WatchType: Wild card directory
+Info 323  [19:53:04.986] DirectoryWatcher:: Triggered with /home/joerter/github/joerter/custom-forms-poc/src/models/form-control.interface.ts 0:: WatchInfo: /home/joerter/github/joerter/custom-forms-poc/src 1 undefined Project: /home/joerter/github/joerter/custom-forms-poc/tsconfig.json WatchType: Failed Lookup Locations
+Info 324  [19:53:04.986] Elapsed:: 0.19456200022250414ms DirectoryWatcher:: Triggered with /home/joerter/github/joerter/custom-forms-poc/src/models/form-control.interface.ts 0:: WatchInfo: /home/joerter/github/joerter/custom-forms-poc/src 1 undefined Project: /home/joerter/github/joerter/custom-forms-poc/tsconfig.json WatchType: Failed Lookup Locations
+Info 325  [19:53:05.238] Starting updateGraphWorker: Project: /home/joerter/github/joerter/custom-forms-poc/tsconfig.json
+Info 326  [19:53:05.272] Finishing updateGraphWorker: Project: /home/joerter/github/joerter/custom-forms-poc/tsconfig.json Version: 48 structureChanged: true Elapsed: 33.9185830000788ms
+Info 327  [19:53:05.272] Project '/home/joerter/github/joerter/custom-forms-poc/tsconfig.json' (Configured)
+Info 328  [19:53:05.272] 	Files (190)
+
+Info 329  [19:53:05.272] -----------------------------------------------
+Info 330  [19:53:05.272] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 331  [19:53:05.272] 	Files (2)
+
+Info 332  [19:53:05.272] -----------------------------------------------

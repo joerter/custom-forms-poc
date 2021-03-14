@@ -1,0 +1,35 @@
+[19:47:40.162] Global cache location '/home/joerter/.cache/typescript/4.2', safe file path '/home/joerter/github/joerter/custom-forms-poc/node_modules/typescript/lib/typingSafeList.json', types map path /home/joerter/github/joerter/custom-forms-poc/node_modules/typescript/lib/typesMap.json
+[19:47:40.163] Processing cache location '/home/joerter/.cache/typescript/4.2'
+[19:47:40.164] Trying to find '/home/joerter/.cache/typescript/4.2/package.json'...
+[19:47:40.164] Loaded content of '/home/joerter/.cache/typescript/4.2/package.json': {"private":true,"dependencies":{"types-registry":"^0.1.532"}}
+[19:47:40.164] Loaded content of '/home/joerter/.cache/typescript/4.2/package-lock.json'
+[19:47:40.164] Finished processing cache location '/home/joerter/.cache/typescript/4.2'
+[19:47:40.164] Process id: 26324
+[19:47:40.164] NPM location: /home/joerter/.nvm/versions/node/v12.6.0/bin/npm (explicit '--npmLocation' not  provided)
+[19:47:40.164] validateDefaultNpmLocation: false
+[19:47:40.164] Npm config file: /home/joerter/.cache/typescript/4.2/package.json
+[19:47:40.165] Updating types-registry npm package...
+[19:47:40.165] Exec: /home/joerter/.nvm/versions/node/v12.6.0/bin/npm install --ignore-scripts types-registry@latest
+[19:47:41.020]     Succeeded. stdout:
+    + types-registry@0.1.532
+    updated 1 package and audited 1 package in 0.52s
+found 0 vulnerabilities
+
+
+[19:47:41.020] Updated types-registry npm package
+[19:51:37.303] Got install request {"projectName":"/dev/null/inferredProject2*","fileNames":[],"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/home/joerter/github/joerter/custom-forms-poc/src","kind":"discover"}
+[19:51:37.360] Loaded safelist from types map file '/home/joerter/github/joerter/custom-forms-poc/node_modules/typescript/lib/typesMap.json'
+[19:51:37.360] Explicitly included types: []
+[19:51:37.361] Inferred typings from unresolved imports: []
+[19:51:37.361] Result: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/joerter/github/joerter/custom-forms-poc/src/bower_components","/home/joerter/github/joerter/custom-forms-poc/src/node_modules"]}
+[19:51:37.361] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/joerter/github/joerter/custom-forms-poc/src/bower_components","/home/joerter/github/joerter/custom-forms-poc/src/node_modules"]}
+[19:51:37.362] DirectoryWatcher:: Added:: WatchInfo: /home/joerter/github/joerter/custom-forms-poc/src/bower_components
+[19:51:37.362] DirectoryWatcher:: Added:: WatchInfo: /home/joerter/github/joerter/custom-forms-poc/src/bower_components 1 undefined Project: /dev/null/inferredProject2* watcher already invoked: false
+[19:51:37.364] Elapsed:: 1.6900049997493625ms DirectoryWatcher:: Added:: WatchInfo: /home/joerter/github/joerter/custom-forms-poc/src/bower_components 1 undefined Project: /dev/null/inferredProject2* watcher already invoked: false
+[19:51:37.364] DirectoryWatcher:: Added:: WatchInfo: /home/joerter/github/joerter/custom-forms-poc/src/node_modules
+[19:51:37.364] DirectoryWatcher:: Added:: WatchInfo: /home/joerter/github/joerter/custom-forms-poc/src/node_modules 1 undefined Project: /dev/null/inferredProject2* watcher already invoked: false
+[19:51:37.364] Elapsed:: 0.20248099975287914ms DirectoryWatcher:: Added:: WatchInfo: /home/joerter/github/joerter/custom-forms-poc/src/node_modules 1 undefined Project: /dev/null/inferredProject2* watcher already invoked: false
+[19:51:37.364] Sending response:
+    {"projectName":"/dev/null/inferredProject2*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true},"typings":[],"unresolvedImports":[],"kind":"action::set"}
+[19:51:37.365] Response has been sent.
+[19:51:37.365] No new typings were requested as a result of typings discovery
