@@ -1,14 +1,10 @@
 import React, { useState } from 'react';
 import './App.css';
-import { Form } from './models/form-models';
+import { Form, createForm } from './models/form-models';
 import CreateForm from './CreateForm';
 
-const initialForm: Form = {
-  groups: [],
-};
-
 function App() {
-  const [form, setForm] = useState(initialForm);
+  const [form, setForm] = useState(createForm());
 
   function handleFormChange(form: Form) {
     setForm(form);
@@ -17,8 +13,14 @@ function App() {
 
   return (
     <div>
-      <CreateForm form={form} onFormChange={handleFormChange} />
-      <pre>{JSON.stringify(form)}</pre>
+      <fieldset>
+        <legend>New Form</legend>
+        <CreateForm form={form} onFormChange={handleFormChange} />
+      </fieldset>
+
+      <pre>
+        <code>{JSON.stringify(form, null, '  ')}</code>
+      </pre>
     </div>
   );
 }

@@ -1,8 +1,4 @@
-import {
-  FormGroup,
-  createFormControl,
-  FormControl,
-} from './models/form-models';
+import { FormGroup, createTextBox, FormControl } from './models/form-models';
 import React from 'react';
 import { partial } from './util';
 import CreateFormControl from './CreateFormControl';
@@ -16,7 +12,8 @@ function CreateFormGroup({
 }) {
   function addFormControl() {
     onGroupChange({
-      controls: [...group.controls, createFormControl()],
+      ...group,
+      controls: [...group.controls, createTextBox()],
     });
   }
 
@@ -26,6 +23,7 @@ function CreateFormGroup({
     );
 
     onGroupChange({
+      ...group,
       controls,
     });
   }
@@ -43,10 +41,11 @@ function CreateFormGroup({
   });
 
   return (
-    <div>
+    <fieldset>
+      <legend>Form Group</legend>
       {formControls}
       <button onClick={addFormControl}>Add Form Control</button>
-    </div>
+    </fieldset>
   );
 }
 

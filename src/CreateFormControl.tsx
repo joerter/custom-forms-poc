@@ -1,6 +1,5 @@
 import React from 'react';
 import { FormControl, FormControlType } from './models/form-models';
-import { format } from 'path';
 
 function CreateFormControl({
   control,
@@ -10,30 +9,12 @@ function CreateFormControl({
   onControlChange: (c: FormControl) => void;
 }) {
   return (
-    <div>
-      <input
-        type="text"
-        placeholder="Label"
-        value={control.label}
-        onChange={(e) => {
-          onControlChange({
-            ...control,
-            label: e.target.value,
-          });
-        }}
-      />
-      <input
-        type="text"
-        placeholder="Name"
-        value={control.name}
-        onChange={(e) => {
-          onControlChange({
-            ...control,
-            name: e.target.value,
-          });
-        }}
-      />
+    <fieldset>
+      <legend>{control.name}</legend>
+
+      <label htmlFor="type">Type</label>
       <select
+        id="type"
         value={control.type}
         onChange={(e) => {
           onControlChange({
@@ -48,7 +29,35 @@ function CreateFormControl({
         <option value="radio">Boolean</option>
         <option value="file">File</option>
       </select>
-    </div>
+
+      <label htmlFor="name">Name</label>
+      <input
+        id="name"
+        type="text"
+        placeholder="Name"
+        value={control.name}
+        onChange={(e) => {
+          onControlChange({
+            ...control,
+            name: e.target.value,
+          });
+        }}
+      />
+
+      <label htmlFor="label">Label</label>
+      <input
+        id="label"
+        type="text"
+        placeholder="Label"
+        value={control.label}
+        onChange={(e) => {
+          onControlChange({
+            ...control,
+            label: e.target.value,
+          });
+        }}
+      />
+    </fieldset>
   );
 }
 
