@@ -1,12 +1,8 @@
-import {
-  Form,
-  FormGroup,
-  createFormGroup,
-  FormControl,
-} from './models/form-models';
+import { Form, FormGroup, FormControl } from './form-models';
 import React from 'react';
 import CreateFormGroup from './CreateFormGroup';
 import { partial } from './util';
+import { createFormGroup } from './factory-functions';
 
 function CreateForm({
   form,

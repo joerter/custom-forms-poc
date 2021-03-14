@@ -1,5 +1,5 @@
 import React from 'react';
-import { FormControl, FormControlType } from './models/form-models';
+import { FormControl, FormControlType } from './form-models';
 
 function CreateFormControl({
   control,
@@ -92,7 +92,7 @@ function CreateFormControl({
             ...control,
             conditional: {
               value: e.target.value,
-              formControlId: control.conditional?.formControlId,
+              formControlId: control.conditional?.formControlId ?? '',
             },
           });
         }}

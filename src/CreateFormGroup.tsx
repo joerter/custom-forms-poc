@@ -1,7 +1,8 @@
-import { FormGroup, createTextBox, FormControl } from './models/form-models';
+import { FormGroup, FormControl } from './form-models';
 import React from 'react';
 import { partial } from './util';
 import CreateFormControl from './CreateFormControl';
+import { createTextBox } from './factory-functions';
 
 function CreateFormGroup({
   group,

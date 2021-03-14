@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import './App.css';
-import { Form, createForm, FormControl } from './models/form-models';
+import { Form, FormControl } from './form-models';
 import CreateForm from './CreateForm';
+import { createForm } from './factory-functions';
 
 function App() {
   const [form, setForm] = useState(createForm());
