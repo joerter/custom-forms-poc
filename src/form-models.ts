@@ -1,5 +1,3 @@
-import { randomId } from './util';
-
 export interface GridLayout {
   columns: number;
   rows: number;
