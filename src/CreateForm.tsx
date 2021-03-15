@@ -16,7 +16,7 @@ function CreateForm({
   function addFormGroup() {
     onFormChange({
       ...form,
-      groups: [...form.groups, createFormGroup()],
+      groups: [...form.groups, createFormGroup(form.groups.length + 1)],
     });
   }
 

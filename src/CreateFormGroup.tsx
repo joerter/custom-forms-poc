@@ -16,7 +16,7 @@ function CreateFormGroup({
   function addFormControl() {
     onGroupChange({
       ...group,
-      controls: [...group.controls, createTextBox()],
+      controls: [...group.controls, createTextBox(group.controls.length + 1)],
     });
   }
 

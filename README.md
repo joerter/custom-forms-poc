@@ -24,15 +24,15 @@ npm start
 
 All of the TypeScript interfaces used to create the data model can be found in `src/form-models.ts`. Functions used to create objects based on these interfaces can be found in `src/factory-functions.ts`.
 
-The hiearchy of these models is `Form` has many `FormGroup`s, which have many `FormControl`s. A `FormControl` can currently be a text box, email, single select dropdown, boolean, or file input.
+The hiearchy of these models is `Form` has many `FormGroup`, which have many `FormControl`. A `FormControl` can currently be a text box, email, single select dropdown, boolean, or file input.
 
 ### Form
 
-The `Form` interface is meant to hold all of the data for a custom form. It has a configurable name and an array of `FormGroup`s. It also extends a `GridLayout` interface that is meant to allow for users to define a custom layout for their form using CSS Grid under the covers.
+The `Form` interface is meant to hold all of the data for a custom form. It has a configurable name and an array of `FormGroup`. It also extends a `GridLayout` interface that is meant to allow for users to define a custom layout for their form using CSS Grid under the covers.
 
 ### FormGroup
 
-The `FormGroup` interface also extends the `GridLayout` interface to allow users to layout the `FormControl`s within the `FormGroup`. It also has a `name` property and array of `FormControl`. The `name` property could be used to show a subheading for the `FormGroup`.
+The `FormGroup` interface also extends the `GridLayout` interface to allow users to layout the `FormControl` instances within the `FormGroup`. It also has a `name` property and array of `FormControl`. The `name` property could be used to show a subheading for the `FormGroup`.
 
 ### FormControl
 

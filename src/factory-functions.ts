@@ -10,20 +10,20 @@ export function createForm(): Form {
   };
 }
 
-export function createFormGroup(): FormGroup {
+export function createFormGroup(i: number): FormGroup {
   return {
     controls: [],
     columns: 1,
     rows: 1,
-    name: 'My Form Group',
+    name: `My Form Group ${i}`,
   };
 }
 
-export function createTextBox(): TextBox {
+export function createTextBox(i: number): TextBox {
   return {
     id: randomId(),
-    label: 'My Text Box',
-    name: 'my-text-box',
+    label: `My Text Box ${i}`,
+    name: `my-text-box ${i}`,
     type: 'text',
     position: {
       rowStart: 1,
