@@ -6,12 +6,8 @@ This project shows a proof-of-concept of a data model that could be used to crea
 
 The demo proof of concept shows an API for how the data model for a custom form builder could be built. The demo allows you to create a form with form groups and form controls. It displays a JSON representation of the form that could be persisted to a database and rendered or edited later. Only a subset of the features of the data model are actually functional in the demo. The UI is very minimal, but could easily be enhanced for optimal user experience.
 
-To try it out, you can either open the project in CodeSandbox or clone the repo. This project was built using
+To try it out, you can clone the repo and build locally. This project was built using
 React and `create-react-app`.
-
-[Open in CodeSandbox](https://codesandbox.io/s/priceless-goodall-6gi9j)
-
-or
 
 ```
 git clone https://github.com/joerter/custom-forms-poc
